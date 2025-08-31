@@ -1,0 +1,12 @@
+
+type Health {
+  status: String!
+}
+
+type Mutation {
+    getSystemHealth: Health!
+}
+
+type Query {
+    getSystemHealth: Health!
+}
